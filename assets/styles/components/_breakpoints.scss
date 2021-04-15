@@ -1,0 +1,21 @@
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1600px;
+
+$query-mobile: "only screen and (max-width: #{$breakpoint-md - 1})";
+$query-tablet: "only screen and (min-width: #{$breakpoint-md}) and (max-width: #{$breakpoint-lg - 1})";
+$query-desktop: "only screen and (min-width: #{$breakpoint-xl})";
+
+$query-less-than-sm: "only screen and (max-width: #{$breakpoint-sm})";
+$query-more-than-sm: "only screen and (min-width: #{$breakpoint-sm})";
+$query-more-than-md: "only screen and (min-width: #{$breakpoint-md})";
+$query-more-than-lg: "only screen and (min-width: #{$breakpoint-lg})";
+$query-more-than-xl: "only screen and (min-width: #{$breakpoint-xl})";
+$query-more-than-xxl: "only screen and (min-width: #{$breakpoint-xxl})";
+
+$query-md: "only screen and (min-width: #{$breakpoint-md}) and (max-width: #{$breakpoint-lg - 1})";
+
+$breakpoints: $query-more-than-sm, $query-more-than-md, $query-more-than-lg,
+  $query-more-than-xl, $query-more-than-xxl;

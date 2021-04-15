@@ -1,0 +1,165 @@
+@import "_colors.scss";
+
+//Для главной страницы
+
+.builder {
+    position: absolute;
+    width: 575px;
+    height: 198px;
+    left: 135px;
+    top: 334px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.03);
+    .background {
+        position:absolute;
+        width: 575px;
+        height: 198px;
+        border-radius: 6px;
+    }
+    .builder__content {
+        position: absolute;
+        width: 267px;
+        height: 102px;
+        margin: 48px 273px 48px 35px;
+        .builder__heading {
+            font-family: Gilroy;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 32px;
+            margin-bottom: 38px;
+        }
+        .builder__button {
+            padding: 16px 30px 16px 30px;
+            background: linear-gradient(84.48deg, #61ADE6 0%, #8FCBF6 100%);
+            box-shadow: 0px 2px 15px rgba(97, 173, 229, 0.3);
+            border-radius: 6px;
+            color: $fill-primary-light;
+            font-family: Gilroy;
+        }
+    }
+    .image__worker {
+        position: absolute;
+        margin: 34px 47.49px 34px 422.34px;
+    }
+}
+
+
+.company {
+    position: absolute;
+    width: 575px;
+    height: 198px;
+    left: 730px;
+    top: 334px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.03);
+    .background {
+        position:absolute;
+        width: 575px;
+        height: 198px;
+        border-radius: 6px;
+    }
+    .company__content {
+        position: absolute;
+        width: 267px;
+        height: 102px;
+        margin: 32px 273px 48px 35px;
+        .company__heading {
+            font-family: Gilroy;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 32px;
+            margin-bottom: 38px;
+            width: 298px;
+        }
+        .company__button {
+            padding: 16px 30px 16px 30px;
+            background: linear-gradient(84.48deg, #61ADE6 0%, #8FCBF6 100%);
+            box-shadow: 0px 2px 15px rgba(97, 173, 229, 0.3);
+            border-radius: 6px;
+            color: $fill-primary-light;
+            font-family: Gilroy;
+        }
+    }
+    .image__company {
+        position: absolute;
+        margin: 34px 47.49px 34px 422.34px;
+    }
+}
+
+//Для change_registration_type
+
+.container__builder {
+    position: absolute;
+    width: 575px;
+    height: 317px;
+    top: 280px;
+    background: $fill-primary-light;
+    border: 1px solid #F8F8F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .container__heading {
+        font-size: 20px;
+        line-height: 24px;
+        font-family: Gilroy;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .container__paragraph {
+        font-size: 15px;
+        line-height: 20px;
+        font-family: "SF UI Display";
+        color: #808896;
+        width: 264px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .container__button {
+        padding: 15px 30px;
+        background: linear-gradient(84.48deg, #61ADE6 0%, #8FCBF6 100%);
+        box-shadow: 0px 2px 15px rgba(97, 173, 229, 0.3);
+        border-radius: 50px;
+        color: $fill-primary-light;
+        font-family: Gilroy;
+    }
+}
+.container__company {
+    position: absolute;
+    width: 575px;
+    height: 317px;
+    left: 730px;
+    top: 280px;
+    background: $fill-primary-light;
+    border: 1px solid #F8F8F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .container__heading {
+        font-size: 20px;
+        line-height: 24px;
+        font-family: Gilroy;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .container__paragraph {
+        font-size: 15px;
+        line-height: 20px;
+        font-family: "SF UI Display";
+        color: #808896;
+        width: 264px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .container__button {
+        padding: 15px 30px;
+        background: linear-gradient(84.48deg, #61ADE6 0%, #8FCBF6 100%);
+        box-shadow: 0px 2px 15px rgba(97, 173, 229, 0.3);
+        border-radius: 50px;
+        color: $fill-primary-light;
+        font-family: Gilroy;
+    }
+}

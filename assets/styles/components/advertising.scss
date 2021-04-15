@@ -1,0 +1,14 @@
+.advertising {
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    background: #DDDDDD;
+    text-align: center;
+    .advertising__text {
+        font-family: 'Roboto';
+        font-size: 40px;
+        line-height: 50px;
+        color: #565656;
+        margin-top: 175px;
+    }
+}

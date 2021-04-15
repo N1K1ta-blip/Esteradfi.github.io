@@ -1,0 +1,24 @@
+@import "components/reset.scss";
+@import "components/_colors.scss";
+@import "components/blocktext.scss";
+@import "components/menubar.scss";
+@import "components/builder_or_company.scss";
+@import "components/fonts.scss";
+@import "components/button_options.scss";
+@import "components/footer.scss";
+@import "components/road.scss";
+
+
+
+.block__content {
+    padding: 30px 135px 90px 135px;
+    top:76px;
+    position: absolute;
+    width: 1440px;
+    min-height: 740px;
+    background-color: $fill-primary;
+}
+
+footer {
+    top: 816px;
+}

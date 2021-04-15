@@ -1,0 +1,351 @@
+@import "components/reset.scss";
+@import "components/_colors.scss";
+@import "components/blocktext.scss";
+@import "components/rating.scss";
+@import "components/application.scss";
+@import "components/menubar.scss";
+@import "components/builder_or_company.scss";
+@import "components/advertising.scss";
+@import "components/fonts.scss";
+@import "components/button_options.scss";
+@import "components/footer.scss";
+
+
+.block1 {
+    position: absolute;
+    width: 1440px;
+    height: 552px;
+    top: 76px;
+    background-color: $fill-primary;
+}
+
+.block2 {
+    position: absolute;
+    width: 1440px;
+    height: 1358px;
+    top: 628px;
+    background-color: $fill-primary-light;
+    .newsbutton {
+        position: absolute;
+        left: 1037px;
+        top: 86px;
+        background: linear-gradient(84.48deg, #61ADE6 0%, #8FCBF6 100%);
+        box-shadow: 0px 2px 15px rgba(97, 173, 229, 0.3);
+        border-radius: 6px;
+        color: $fill-primary-light;
+        padding: 14px 25px;
+        font-family: Gilroy;
+    }
+    .application1 {
+        top: 238px;
+    }
+    .application2 {
+        top: 433px;
+        .application__content {
+            .content__image {
+                margin-right: 15px;
+                width: 150px;
+                height: 150px;
+                border: 1px solid $border-light;
+                border-radius: 6px;
+            }
+            .content__description {
+                .description__heading {
+                    width: 159px;
+                }
+            }
+        }
+    }
+    .application3 {
+        top: 628px;
+        .application__content {
+            .content__description {
+                .description__heading {
+                    width: 190px;
+                }
+            }
+        }
+    }
+    .application4 {
+        top: 823px;
+        .application__content {
+            .content__description {
+                .description__heading {
+                    width: 241px;
+                }
+            }
+        }
+    }
+    .application5 {
+        top: 1018px;
+        .application__content {
+            .content__description {
+                .description__heading {
+                    width: 174px;
+                }
+            }
+        }
+    }
+}
+
+.advertising-1 {
+    top: 1986px;
+}
+
+.block3 {
+    position: absolute;
+    width: 1440px;
+    height: 1358px;
+    top: 2386px;
+    background: $fill-primary;
+    .blocktext {
+        height: 113px;
+        .blocktext__heading {
+            width: 569px;
+        }
+    }
+    .brigade1 {
+        top: 238px;
+    }
+    .brigade2 {
+        top: 433px;
+    }
+    .brigade3 {
+        top: 628px;
+    }
+    .brigade4 {
+        top: 823px;
+    }
+    .brigade5 {
+        top: 1018px;
+    }
+}
+
+.block4 {
+    position: absolute;
+    width: 1440px;
+    height: 468px;
+    top: 3744px;
+    text-align: center;
+    background-color: $fill-primary-dark;
+    .block4__text {
+        font-size: 100px;
+        top: 100px;
+        position: relative;
+    }
+}
+
+.advertising-2 {
+    top: 4212px;
+}
+
+.block5 {
+    position: absolute;
+    width: 1440px;
+    height: 1312px;
+    top: 4612px;
+    padding: 100px 135px;
+    .content {
+        width: 100%;
+        height: 100%;
+        .blocktext__news-block {
+            margin-bottom: 40px;
+            .subscribe {
+                padding: 14px 25px;
+                background: linear-gradient(84.48deg, #61ADE6 0%, #8FCBF6 100%);
+                box-shadow: 0px 2px 15px rgba(97, 173, 229, 0.3);
+                border-radius: 6px;
+                border-color:transparent;
+                color: $fill-primary-light;
+                cursor: pointer;
+                float: right;
+                font-family: Gilroy;
+                font-size: 15px;
+            }
+        }
+        .content__filter {
+            margin-bottom: 40px;
+            .filter__search {
+                background-color: $fill-grey;
+                padding: 14px 20px 15px 20px;
+                border-radius: 6px;
+                border-color: transparent;
+                width: 690px;
+                margin-right: 5px;
+                color: $text-secondary-light !important;
+            }
+            .filter__button {
+                background: linear-gradient(84.48deg, #61ADE6 0%, #8FCBF6 100%);
+                box-shadow: 0px 2px 15px rgba(97, 173, 229, 0.3);
+                border-radius: 6px;
+                padding: 9px 28px;
+                cursor: pointer;
+                border-color: transparent;
+                vertical-align: middle;
+                margin-right: 15px;
+            }
+            .filter__select {
+                padding: 14px 20px 15px 20px;
+                background: #F9F9F9;
+                border-radius: 6px;
+                border-color: transparent;
+                width: 368px;
+                cursor: pointer;
+                color: $text-secondary-light;
+                font-family: Gilroy;
+            }
+        }
+        .contant__main {
+            margin-bottom: 81px;
+            .news__main {
+                height: 389px;
+                .main__image {
+                    margin-right: 25px;
+                    display: inline-block;
+                }
+                .main__text {
+                    display: inline-block;
+                    height: 344px;
+                    width: 342px;
+                    position: absolute;
+                    margin-top: 22.5px;
+                    .main__heading {
+                        font-family: Gilroy;
+                        font-weight: 600;
+                        font-size: 25px;
+                        line-height: 30px;
+                        margin-bottom: 7.5px;
+                    }
+                    .main__paragraph {
+                        font-family: SF UI Display;
+                        font-size: 15px;
+                        line-height: 22px;
+                        color: #808896;
+                    }
+                    .main__date {
+                        margin-top: 205px;
+                        font-family: Gilroy;
+                        font-size: 13px;
+                        line-height: 15px;
+                        color: #D2D4D7;
+                    }
+                    .main__category {
+                        position: absolute;
+                        width: 380px;
+                        height: 389px;
+                        left: 425px;
+                        top: -23px;
+                        display: inline-block;
+                        .category__heading {
+                            font-family: Gilroy;
+                            font-weight: 600;
+                            font-size: 25px;
+                            line-height: 29px;
+                            width: 214px;
+                            margin-bottom: 26px;
+                        }
+                        .category__news {
+                            .news__image {
+                                margin-bottom: 7px;
+                            }
+                            .news__name1 {
+                                position: absolute;
+                                top: 104px;
+                                left: 20px;
+                                font-family: Gilroy;
+                                font-size: 20px;
+                                line-height: 25px;
+                                color: #FFFFFF;
+                                margin-bottom: 15px;
+                            }
+                            .news__date1 {
+                                position: absolute;
+                                top: 144px;
+                                left: 20px;
+                                font-family: Gilroy;
+                                font-size: 13px;
+                                line-height: 15px;
+                                color: #FFFFFF;
+                            }
+                            .news__name2 {
+                                position: absolute;
+                                top: 209px;
+                                left: 20px;
+                                font-family: Gilroy;
+                                font-size: 20px;
+                                line-height: 25px;
+                                color: #FFFFFF;
+                                margin-bottom: 15px;
+                            }
+                            .news__date2 {
+                                position: absolute;
+                                top: 249px;
+                                left: 20px;
+                                font-family: Gilroy;
+                                font-size: 13px;
+                                line-height: 15px;
+                                color: #FFFFFF;
+                            }
+                            .news__name3 {
+                                position: absolute;
+                                top: 314px;
+                                left: 20px;
+                                font-family: Gilroy;
+                                font-size: 20px;
+                                line-height: 25px;
+                                color: #FFFFFF;
+                                margin-bottom: 15px;
+                            }
+                            .news__date3 {
+                                position: absolute;
+                                top: 354px;
+                                left: 20px;
+                                font-family: Gilroy;
+                                font-size: 13px;
+                                line-height: 15px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .contant__news-block {
+            height: 403px;
+            display: inline-block;
+            .news-block__container {
+                width: 370px;
+                height: 403px;
+                margin-right: 26px;
+                .container__heading {
+                    font-family: Gilroy;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 25px;
+                    margin-top: 19px;
+                    margin-bottom: 7px;
+                }
+                .container__paragraph {
+                    font-family: SF UI Display;
+                    font-size: 15px;
+                    line-height: 21px;
+                    color: #808896;
+                    margin-bottom: 23px;
+                }
+                .container__date {
+                    font-family: Gilroy;
+                    font-size: 13px;
+                    line-height: 15px;
+                    color: #D2D4D7;
+                }
+            }
+        }
+    }
+}
+.element_last {
+    margin: 0 !important;
+}
+
+footer {
+    top: 5924px;
+}

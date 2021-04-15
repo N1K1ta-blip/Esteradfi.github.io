@@ -1,0 +1,58 @@
+@import "_colors.scss";
+
+footer {
+    background: #273242;
+    width: 1440px;
+    height: 153px;
+    position: absolute;
+    padding: 30px 152px 32px 135px;
+    .footer__menubar {
+        .footer__logo {
+            color: $fill-primary-light;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 30px;
+            position: absolute;
+        }
+        .footer__items {
+            position: absolute;
+            display: -webkit-box;
+            width: 534px;
+            height: 18px;
+            left: 409px;
+            top: 38px;
+            font-family: 'Gilroy';
+            color: white;
+            .footer__page {
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 18px;
+                margin-right: 40px;
+                a {
+                    color: $fill-primary-light;
+                }
+
+            }
+        }
+    }
+    .footer__contact {
+        position: absolute;
+        width: 125px;
+        height: 91px;
+        left: 1163px;
+        .contact__heading{
+            font-family: Gilroy;
+            font-size: 11px;
+            line-height: 13px;
+            color: #888E97;
+        }
+        .contact__paragraph {
+            font-family: Gilroy;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+        }
+    }
+}

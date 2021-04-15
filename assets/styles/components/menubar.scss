@@ -1,0 +1,61 @@
+.menubar {
+    width: 100%;
+    .menubar__logo {
+        position: absolute;
+        margin-left: 135px;
+        top: 25px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 550;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .menubar__items {
+        position: absolute;
+        display: flex;
+        width: 372px;
+        height: 18px;
+        left: 440px;
+        top: 29px;
+        font-family: Gilroy;
+        .menubar__page {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            margin-right: 40px;
+            a {
+                transition: .3s ease;
+            }
+        }
+    }
+    .menubar__button {
+        position: absolute;
+        width: 305px;
+        height: 46px;
+        left: 1006px;
+        top: 29px;
+        font-size: 15px;
+        font-family: Gilroy;
+        display: flex;
+        .menubar__quest {
+            margin-right: 13px;
+            a {
+                transition: .3s ease;
+                padding: 14px 25px 14px 25px;
+                background: linear-gradient(84.48deg, #61ADE6 0%, #8FCBF6 100%);
+                box-shadow: 0px 2px 15px rgba(97, 173, 229, 0.3);
+                border-radius: 6px;
+                color: $fill-primary-light;
+            }
+        }
+        .menubar__enter {
+            a {
+                transition: .3s ease;
+                background-color: #FDFDFD;
+                border: 1px solid #F0F0F0;
+                box-sizing: border-box;
+                border-radius: 6px;
+                padding: 14px 25px 14px 25px;
+            }
+        }
+    }
+}
